@@ -12,15 +12,21 @@ class CategoryTableViewController: UIViewController, UITableViewDelegate, UITabl
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("I'm Here")
     }
 
     // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0 // TODO: - Fetch the number of category objects from CategoryController
+        return 1 // TODO: - Fetch the number of category objects from CategoryController
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "categoryCell", for: indexPath) as? CategoryTableViewCell else { return UITableViewCell() }
+        
+        
+        cell.categoryNameLabel.text = "Test"
+        cell.backgroundColorView.backgroundColor = .blue
+        
         return cell
     }
 

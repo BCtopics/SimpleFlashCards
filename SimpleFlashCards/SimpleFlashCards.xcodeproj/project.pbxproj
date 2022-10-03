@@ -114,10 +114,10 @@
 		6B3BD2AF28EB646100F2A211 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6B3BD2A528EB636D00F2A211 /* Info.plist */,
+				6B3BD2A228EB636D00F2A211 /* LaunchScreen.storyboard */,
 				6B3BD29D28EB636C00F2A211 /* Main.storyboard */,
 				6B3BD2A028EB636D00F2A211 /* Assets.xcassets */,
-				6B3BD2A228EB636D00F2A211 /* LaunchScreen.storyboard */,
-				6B3BD2A528EB636D00F2A211 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -352,8 +352,9 @@
 				INFOPLIST_FILE = SimpleFlashCards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIMainStoryboardFile = Resources/Main.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,8 +380,9 @@
 				INFOPLIST_FILE = SimpleFlashCards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIMainStoryboardFile = Resources/Main.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
