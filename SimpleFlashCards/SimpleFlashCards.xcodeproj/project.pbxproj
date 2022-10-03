@@ -17,6 +17,7 @@
 		6B3BD2B528EB83F700F2A211 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD2B428EB83F700F2A211 /* CoreDataStack.swift */; };
 		6B3BD2B828EB844600F2A211 /* SimpleFlashCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD2B628EB844600F2A211 /* SimpleFlashCards.xcdatamodeld */; };
 		6B3BD2BC28EB84C400F2A211 /* Category+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD2BB28EB84C400F2A211 /* Category+Convenience.swift */; };
+		6B3BD2BE28EB855C00F2A211 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3BD2BD28EB855C00F2A211 /* CategoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6B3BD2B428EB83F700F2A211 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		6B3BD2B728EB844600F2A211 /* SimpleFlashCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleFlashCards.xcdatamodel; sourceTree = "<group>"; };
 		6B3BD2BB28EB84C400F2A211 /* Category+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+Convenience.swift"; sourceTree = "<group>"; };
+		6B3BD2BD28EB855C00F2A211 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		6B3BD2AD28EB645300F2A211 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6B3BD2BD28EB855C00F2A211 /* CategoryController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				6B3BD29828EB636C00F2A211 /* AppDelegate.swift in Sources */,
 				6B3BD2B328EB671D00F2A211 /* CategoryTableViewController.swift in Sources */,
 				6B3BD29A28EB636C00F2A211 /* SceneDelegate.swift in Sources */,
+				6B3BD2BE28EB855C00F2A211 /* CategoryController.swift in Sources */,
 				6B3BD2B128EB669100F2A211 /* CategoryTableViewCell.swift in Sources */,
 				6B3BD2BC28EB84C400F2A211 /* Category+Convenience.swift in Sources */,
 			);
